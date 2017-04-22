@@ -13,12 +13,7 @@ namespace StrangerEventsTesting.Characters
         public event EventHandler<CryEventArgs> CriedToWalkieTalkie;
         public event EventHandler<CryEventArgs> CriedFromSideOfPool;
 
-        public int ChristmasLightListenerCount => CriedWithChristmasLights?.GetInvocationList().Length ?? 0;
-        public int ExplodingPhoneListenerCount => CriedIntoExplodingPhone?.GetInvocationList().Length ?? 0;
-        public int UpsideDownListenerCount => CriedFromTheUpsideDown?.GetInvocationList().Length ?? 0;
-        public int WalkieTalkieListenerCount => CriedToWalkieTalkie?.GetInvocationList().Length ?? 0;
-        public int SideOfPoolListenerCount => CriedFromSideOfPool?.GetInvocationList().Length ?? 0;
-        public int TotalListeners => ChristmasLightListenerCount + ExplodingPhoneListenerCount + UpsideDownListenerCount + WalkieTalkieListenerCount + SideOfPoolListenerCount;
+        public int TotalListeners => (CriedWithChristmasLights?.GetInvocationList().Length ?? 0) + (CriedIntoExplodingPhone?.GetInvocationList().Length ?? 0) + (CriedFromTheUpsideDown?.GetInvocationList().Length ?? 0) + (CriedToWalkieTalkie?.GetInvocationList().Length ?? 0) + (CriedFromSideOfPool?.GetInvocationList().Length ?? 0);
 
         public void CryForHelp(string helpMessage, CryType cryType)
         {
