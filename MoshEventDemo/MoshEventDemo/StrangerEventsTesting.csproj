@@ -6,11 +6,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{46C9B3E5-C6AD-4FB5-9DD4-6F93B19F4956}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MoshEventDemo</RootNamespace>
-    <AssemblyName>MoshEventDemo</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>StrangerEventsTesting</RootNamespace>
+    <AssemblyName>StrangerEventsTesting</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,6 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Characters\Character.cs" />
+    <Compile Include="Characters\Cryer.cs" />
+    <Compile Include="Characters\FriendOfWill.cs" />
+    <Compile Include="Disp.cs" />
+    <Compile Include="Crying\CryEventArgs.cs" />
+    <Compile Include="Characters\JoyceByers.cs" />
+    <Compile Include="Crying\CryType.cs" />
+    <Compile Include="Crying\CryTypeText.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
