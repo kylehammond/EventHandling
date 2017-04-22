@@ -47,7 +47,7 @@ namespace StrangerEventsTesting
             will.CryForHelp("blink blink blinkblink... blink blink..!", CryType.ChristmasLights);
             will.CryForHelp("Help I'm in the upsidedown!", CryType.Walkie);
             barb.CryForHelp("Help I'm being bullied!", CryType.SideOfPool);
-            will.CryForHelp("blink blink blinkblink... blink blink..!", CryType.ExplodingPhone);
+            will.CryForHelp("In 15 seconds this message will self destruct!", CryType.ExplodingPhone);
             barb.CryForHelp("Help I'm forgettable!", CryType.UpsideDown);
         }
     }

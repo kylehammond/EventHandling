@@ -12,8 +12,7 @@
                 Disp.WL(Name + " heard the message from " + e.CrierName + " over the walkie talkie!");
 
             if (e.CryType == CryType.UpsideDown)
-                Disp.WL(Name + " heard the message from " + e.CrierName +
-                        " telepathically from the Upside Down!");
+                Disp.WL(Name + " heard the message from " + e.CrierName + " telepathically from the Upside Down!");
         }
     }
 }
